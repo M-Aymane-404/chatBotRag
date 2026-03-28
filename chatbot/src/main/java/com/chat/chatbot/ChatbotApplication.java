@@ -30,6 +30,28 @@ public class ChatbotApplication {
                             .build()
             );
 
+//            etudiantRepo.save(
+//                    Etudiant.builder()
+//                            .nom("ali")
+//                            .prenom("Alami")
+//                            .note(12.5)
+//                            .apogee("123456")
+//                            .filiere("ILCS")
+//                            .niveau("1A")
+//                            .build()
+//            );
+//
+//            etudiantRepo.save(
+//                    Etudiant.builder()
+//                            .nom("ali")
+//                            .prenom("Alami")
+//                            .note(12.5)
+//                            .apogee("123456")
+//                            .filiere("ILCS")
+//                            .niveau("1A")
+//                            .build()
+//            );
+
             etudiantRepo.save(
                     Etudiant.builder()
                             .nom("karim")
